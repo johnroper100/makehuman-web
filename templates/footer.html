@@ -4,5 +4,10 @@
         <script src="assets/js/jquery-3.1.1.min.js"></script>
         <script src="assets/js/tether.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script>
+            var images = ['jukka_niittymaa1.png', 'colinbartonmaiko3_tb.png', 'colinbartonmaiko2.png', 'tmarque1.png'];
+            $('.img-header').css({'background-image': 'url(assets/img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+            $('.img-header-sm').css({'background-image': 'url(assets/img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+        </script>
     </body>
 </html>
