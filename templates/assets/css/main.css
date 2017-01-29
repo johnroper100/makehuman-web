@@ -2,12 +2,6 @@ body * {
     border-radius: 0px !important;
 }
 
-/* Fonts */
-
-/* Questrial
-Used as Heading font 
- */
-/* questrial-regular - latin */
 @font-face {
   font-family: 'Questrial';
   font-style: normal;
@@ -21,16 +15,6 @@ Used as Heading font
        url('../fonts/questrial-v6-latin-regular.svg#Questrial') format('svg'); /* Legacy iOS */
 }
 
-/* Open Sans
- * In use all over the place as body text
- * Mass-download + css for self-hosting courtesy of:
- * https://google-webfonts-helper.herokuapp.com
- */
-
-/* Testing fix for missing diacritics on some glyphs...
- */
-
-/* open-sans-300 - latin_cyrillic-ext_latin-ext_cyrillic */
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -43,7 +27,7 @@ Used as Heading font
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-300.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-300.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
-/* open-sans-300italic - latin_cyrillic-ext_latin-ext_cyrillic */
+
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
@@ -56,7 +40,7 @@ Used as Heading font
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-300italic.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
-/* open-sans-regular - latin_cyrillic-ext_latin-ext_cyrillic */
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -69,7 +53,7 @@ Used as Heading font
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
-/* open-sans-italic - latin_cyrillic-ext_latin-ext_cyrillic */
+
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
@@ -82,7 +66,7 @@ Used as Heading font
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-italic.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
-/* open-sans-600 - latin_cyrillic-ext_latin-ext_cyrillic */
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -96,7 +80,7 @@ Used as Heading font
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-600.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
-/* open-sans-600italic - latin_cyrillic-ext_latin-ext_cyrillic */
+
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
@@ -111,9 +95,6 @@ Used as Heading font
        url('../fonts/open-sans-v13-latin_cyrillic-ext_latin-ext_cyrillic-600italic.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
-/* League Gothic Regular */
-/* Also only used on the main page
- * for the GIMP title at the moment */
 @font-face {
     font-family: 'League Gothic';
     src: url('../fonts/leaguegothic-regular-webfont.eot');
@@ -126,9 +107,6 @@ Used as Heading font
 
 }
 
-/* Ostrich Sans Rounded */
-/* Only used on the main page?
- * may have to move this to only the index.css */
 @font-face {
 	font-family: 'Ostrich Sans Rounded';
 	src: url('../fonts/ostrich-sans-rounded.eot');
@@ -137,26 +115,8 @@ Used as Heading font
 	font-style: normal;
 }
 
-
-/* Creative Commons Fonts */
-@font-face {
-    font-family: 'CC';
-    src: url('../fonts/cc-icons.ttf');
-    font-weight: 400;
-    font-style: normal;
-}
-
-.cc {
-    font-family: 'CC';
-    vertical-align: middle;
-}
-
 html {
     font-family: "Open Sans", sans;
-}
-
-html p {
-    hyphens: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -174,6 +134,15 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+footer {
+    width: 100% !important;
+    height: 55px;
+    background-color: #292b2c;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
 .img-header .content {
     margin-top: 15px;
 }
@@ -187,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 2px;
 }
 
-.header-buttons .btn {
+.btn {
     font-family: League Gothic, sans;
     font-size: 2.1rem;
 }
@@ -213,4 +182,8 @@ p {
 
 .bg-light {
     background-color: #ffffff;
+}
+
+.download-text {
+    text-align: center;
 }
