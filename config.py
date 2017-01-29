@@ -7,7 +7,7 @@ website_description_long = "" # Use for things like author bio on a blog
 website_license = "GPL3.0"
 author_name = "John Roper"
 website_language = "en"
-home_page_list = "no"
+home_page_list = "yes"
 
 # The following values are used for FTP uploads
 ftp_server = "localhost"
