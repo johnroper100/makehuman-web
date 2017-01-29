@@ -210,3 +210,12 @@ p {
 .download-text {
     text-align: center;
 }
+
+.special-link:hover {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+.gallery-link {
+    margin-top: 25px;
+}
